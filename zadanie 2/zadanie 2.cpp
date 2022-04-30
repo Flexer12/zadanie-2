@@ -30,7 +30,7 @@ void (*actionsmas(int* mas, unsigned size))(int*, unsigned)
 int main()
 {
     
-    int a[10] = { 45,2,6,3,4,1,5,7,8,9 };
+    int a[10] = {36,4,5,6,3,4,7,8,9,4 };
     print(a, 10);
     void (*ykazfunc)(int* a, unsigned size);
     ykazfunc = actionsmas(a, 10);
